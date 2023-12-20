@@ -1,6 +1,8 @@
 import Hello from './components/Hello'
 import './App.css'
 import DemoForm from "./components/DemoForm.jsx";
+import RandomRiddle from "./components/randomRiddle.jsx";
+import DemoReducer from "./components/DemoReducer.jsx";
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
 
     return (
         <>
+            <DemoReducer />
+            <RandomRiddle />
             <DemoForm />
             <h1>Hello {name}</h1>
 
