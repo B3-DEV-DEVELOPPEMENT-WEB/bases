@@ -3,6 +3,7 @@ import './App.css'
 import DemoForm from "./components/DemoForm.jsx";
 import RandomRiddle from "./components/randomRiddle.jsx";
 import DemoReducer from "./components/DemoReducer.jsx";
+import Calculator from "./components/calculatrice.jsx";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
 
     return (
         <>
+            <Calculator />
             <DemoReducer />
             <RandomRiddle />
             <DemoForm />
