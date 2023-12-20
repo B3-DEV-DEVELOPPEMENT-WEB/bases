@@ -1,5 +1,6 @@
 import Hello from './components/Hello'
 import './App.css'
+import DemoForm from "./components/DemoForm.jsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
 
     return (
         <>
+            <DemoForm />
             <h1>Hello {name}</h1>
 
             <p className="red">
